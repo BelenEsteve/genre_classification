@@ -46,8 +46,7 @@ def go(args):
         y_test,
         ax=sub_cm,
         normalize="true",
-        values_format=".1f",
-        xticks_rotation=90,
+        values_format=".1f"
     )
     fig_cm.tight_layout()
 
